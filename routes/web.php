@@ -13,13 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', );
 
 Route::get('/about', function () {
     return '<h4>about page</h4>';
 });
+
+Route::get('/contact', function () {
+    return '<h4>contact page</h4>';
+});
+
 
 
 //{category?}/{item?} - ? make these optional
